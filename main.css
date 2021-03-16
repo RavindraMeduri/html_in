@@ -1,12 +1,9 @@
-h1 {
-    background-color : rgb(160, 24, 160); margin : 0px;
-}
-
 .c0 {
     display : flex;
     justify-content : space-between;
-    margin : auto;
     width : 80%;
+    margin : auto;
+    align-items : center;
 }
 
 .c1 {
@@ -14,19 +11,24 @@ h1 {
     flex : 0.7;
 }
 
-.c4 {
-    flex : 0.8;
+.c2 {
+    display : flex;
+    flex : 0.3;
+    justify-content : space-evenly;
 }
+
+.c3 {
+    flex : 0.1;
+}
+
+.c4 {
+    flex : 0.9;
+}
+
 
 .c4 > ul {
     display : flex;
     justify-content : space-evenly;
-    margin : auto;
     list-style-type : none;
-}
-
-.c2 {
-    display : flex;
-    justify-content : space-evenly;
-    flex : 0.3;
+    margin : 0;
 }
